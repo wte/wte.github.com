@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
 		<meta charset="utf-8"/>
 		<title>Resume Teddy</title>
 	</head>
-
 	<style>
-
 		body {
 			font-family: Helvetica, arial, freesans, clean, sans-serif;
 			font-size: 14px;
@@ -21,7 +18,6 @@
 		.header, .subtitle, .code {
 			position: relative;
 			margin: 15px 0;
-
 		}
 		.header {
 			font-size: 24px;
@@ -34,7 +30,6 @@
 			font-size: 16px;
 			font-weight: bold;
 		}
-
 		.code {
 			background-color: #f8f8f8;
 			border: 1px solid #ccc;
@@ -44,114 +39,95 @@
 			padding: 6px 10px;
 			border-radius: 3px;
 		}
-
 		.print_btn {
-		  position: absolute;
-		  top:20px;
-		  left:50%;
+		position: absolute;
+		top:20px;
+		left:50%;
 		}
-
 		.picture {
-		  position: relative;
-		  top: -158px;
-		  float: right;
+		position: relative;
+		top: -158px;
+		float: right;
 		}
-
 		.pictrue_wrap {
-		  position: relative;
-		  height:127px;
-		  overflow: hidden;
+		position: relative;
+		height:127px;
+		overflow: hidden;
 		}
-
-
 	</style>
 	<body>
 		<input class="print_btn" type="button" value="打印" onclick="javascript:window.print();"/>
-
-		<header class="header">林玮  简历</header>
-
-		<div class="subtitle">个人信息</div>
-		<div class="code pictrue_wrap">
-			姓名：林玮， teddy lin　<br/>
-			婚姻：已婚              <br/>
-			出生年月：1985-09       <br/>
-			家庭住址：深圳市龙华新区民治春华四季园(深圳北旁) 518000      <br/>
-			邮箱：446916583@qq.com        <br/>
-			phone: 136 3264 3505          <br/>
-			<aside class="picture"><img src="img/resume.jpg" width="100"></img></aside>
-		</div>
-		
-		
-		<div class="subtitle">自我评价</div>
-		<div class="code">
-			1. 做事认真负责。             <br/>
-			2. 喜欢web技术。              <br/>
-			3. 喜欢看书，收藏技术书。     <br/>
-			4. 沟通能力较好。             <br/>
-			5. 数学功底扎实。研究生入学总分第一。数学功底扎实。 曾发表学术论文二篇。  <br/>
-		</div>
-		
-
-		<div class="subtitle">工作经历</div>
-		<div class="code">
-			晨星资讯（2010-至今） Asset Allocation(资产配置) | web前端软件工程师  <br/>
-
-			1.  精通js/html/css, 原生js, 精通任何常用的基础类库jQuery/ExtJs4/YUI等任何类库/UI库.<br/>
-			2.  活跃于web前端开发前沿, 热爱读源码, 对前端流行的组件库源码研究掌握seaJs/淘宝Kissy/腾讯QZFL/jasmine等, 也写过单元测试框架. 也用过node.js/express框架写过一些调试工具，如服务端跨域，写本地日志，“删除多余逗号”插件等. <br/>
-			     异步js执行标准promise, 以及相应的流行库Async.js和when.js. 模块加载标准Amd/Cmd(CommonJs), 以及相应的RequireJs和SeaJs.<br/>
-			     响应式设计, 兼容不同设备.<br/>
-			3.  熟悉各种调试开发工具, firebug/fidder/chrome/ie developertools/httpwatch/JsLint/sublime text/YSlow/ant build/YUIcompressor 等.<br/>
-			4.  熟悉javascript的基础与高级应用, 正则表达式, 闭包, BOM, DOM, 事件模式, 内存分配与对象声明类型判断, 原型链继承, 面向对象, 性能优化, 安全方面, XSS/CSRF, 动画, jsonp跨域等. <br/>
-			5.  利用jQuery开发js底层组件库, 包括window, 下拉框, 滚动panel, dragdrop等.<br/>
-			6.  熟悉html5和css3. 多媒体标签vedio, canvas 绘图, localstorage, web缓存, 语义化等. <br/>
-			7.  性化优化方面, 熟悉YUI优化法则, 事件委托, lazyload, 脚本加载, 内存泄露, 文档片断, 浏览器reflow等等.<br/>
-			8.  熟悉设计模式， 并将设计模式熟悉运用于组件设计中。像流行的MVC框架backbone, MVVM框架knockout.js, angular.js, Avalon.js等都有深入研究.<br/>
-			9.  熟悉MVC框架、 JSP、 java、 C++等语言， 精通perl 语言, 数据结构， 并能在Linux下编写脚本程序。<br/>
-			10. 熟悉css预处理框架sass, less, compass, 并设计用于项目中 。<br/>
-			11. 研究自动化测试工具selenium， 以及github上用node.js开发的nightwatch.js，编写自动化脚本测试项目页面。<br/>
-
-
-			华大基因 蛋白平台-生物信息分析   <br/>
-
-			2010年3月至2010年7月任华大基因研究院任生物信息分析员，对主要利用perl语言处理实验结束的生物数据。<br/>
-			较为精通perl 语言，能够在Linux 系统下熟悉编写perl 脚本程序。<br/>
-		</div>
-
-		<div class="subtitle">项目经验</div>
-		<div class="code">
-			2010/07 -- 至今：Asset Allocation  <br/>
-			责任描述：编写js/html/css, 实现并维护团队所需的UI组件, review前端代码以及单元测试。<br/>
-			讨论项目需求以及实现设计, 编写后台需要数据, 运用mvc为前台输送数据, 实现前后台交互, 
-			解决线上页面的问题。<br/>
-			优化页面性能, 研究各类前端技术, 包括seaJs/淘宝Kissy/腾讯QZFL/jasmine等, 
-			也写过单元测试框架. 也用过node.js/express框架写过一些调试工具. <br/>
-
-			项目描述：公司的基金分析项目，对基金账户的数据分析计算后展现给用户看，包括图表等。
-			用户可以与页面进行比较友好的互动。<br/>
-		</div>
-
-		<div class="subtitle">教育背景</div>
-		<div class="code">
-			曾获 院校级一等奖奖学金              <br/>
-			大学每年均获得一等学习奖学金         <br/>
-			研究生发表学术论文二篇               <br/>
-		</div>
+	<header class="header">林玮  简历</header>
+	<div class="subtitle">个人信息</div>
+	<div class="code pictrue_wrap">
+		姓名：林玮， teddy lin　<br/>
+		婚姻：已婚              <br/>
+		出生年月：1985-09       <br/>
+		家庭住址：深圳市龙华新区民治春华四季园(深圳北旁) 518000      <br/>
+		邮箱：446916583@qq.com        <br/>
+		phone: 136 3264 3505          <br/>
+	<aside class="picture"><img src="img/resume.jpg" width="100"></img></aside>
+</div>
+<div class="subtitle">自我评价</div>
+<div class="code">
+	1. 做事认真负责。             <br/>
+	2. 喜欢web技术。              <br/>
+	3. 喜欢看书，收藏技术书。     <br/>
+	4. 沟通能力较好。             <br/>
+	5. 数学功底扎实。研究生入学总分第一。数学功底扎实。 曾发表学术论文二篇。  <br/>
+</div>
+<div class="subtitle">工作经历</div>
+<div class="code">
+	晨星资讯（2010-至今） Asset Allocation(资产配置) | web前端软件工程师  <br/>
+	1.&nbsp;&nbsp;熟悉js/html/css, 原生js, 熟悉任何常用的基础类库jQuery/ExtJs4/YUI等类库/UI库。<br/>2.&nbsp;&nbsp;活跃于web前端开发前沿, 热爱读源码, 对前端流行的组件库源码研究掌握seaJs/淘宝Kissy/jasmine等, 也写过单元测试框架. 也用过node.js/express框架写过一些调试工具. <br/>&nbsp;&nbsp;&nbsp;&nbsp; 异步js执行标准promise, 以及相应的流行库Async.js和when.js. 模块加载标准Amd/Cmd(CommonJs), 以及相应的RequireJs和SeaJs.<br/>&nbsp;&nbsp;&nbsp;&nbsp; 响应式设计, 兼容不同设备.<br/>3.&nbsp;&nbsp;熟悉各种调试开发工具, firebug/fidder/chrome/ie developertools/httpwatch/JsLint/sublime text/YSlow/ant build/YUIcompressor 等.<br/>4.&nbsp;&nbsp;熟悉javascript的基础与高级应用, 正则表达式, 闭包, BOM, DOM, 事件模式, 内存分配与对象声明类型判断, 原型链继承, 面向对象, 性能优化, 安全方面, XSS/CSRF, 动画, jsonp跨域等. <br/>5.&nbsp;&nbsp;利用jQuery开发js底层组件库, 包括window, 下拉框, 滚动panel, dragdrop等.<br/>6.&nbsp;&nbsp;熟悉html5和css3. 多媒体标签vedio, canvas 绘图, localstorage, web缓存, 语义化等. <br/>7.&nbsp;&nbsp;性化优化方面, 熟悉YUI优化法则, 事件委托, lazyload, 脚本加载, 内存泄露, 文档片断, 浏览器reflow等等.<br/>8.&nbsp;&nbsp;熟悉设计模式， 并将设计模式熟悉运用于组件设计中。像流行的MVC框架backbone, MVVM框架knockout.js, angular.js, Avalon.js等都有深入研究.<br/>9. 熟悉MVC框架、 JSP、 java等语言， 熟悉perl 语言, 数据结构， 并能在Linux下编写脚本程序。
+	华大基因 蛋白平台-生物信息分析   <br/>
+	2010年3月至2010年7月任华大基因研究院任生物信息分析员，对主要利用perl语言处理实验结束的生物数据。<br/>
+	较为精通perl 语言，能够在Linux 系统下熟悉编写perl 脚本程序。<br/>
+</div>
+<div class="subtitle">项目经验</div>
+<div class="code">
+	2010/07 -- 至今：Asset Allocation  <br/>
+	<div >
+		<p >
+		<strong>软件环境：</strong>J2EE, 各种浏览器
+		</p>
+		<p >
+		<strong>硬件环境：</strong>winx64
+		</p>
+		<p >
+		<strong>开发工具：</strong>Sublime/Eclipse, FF+IE, Fiddle, Chrome
+		</p>
+	</div>
+	<strong>责任描述：</strong><br />
+	1. 开发新的项目，包括开发新页面，打包等一系列过程，当然遵循我们现在的项目开发流程。 <br/>2. 维护线上的项目，包括重构，优化，fix bugs. 抽出我们现在的框架等，使其更加通用化。<br/>3. 利用node.js写一些小的工具给团队使用，例如，去逗号，反向代理，html模板转为js数组等等。<br/>&nbsp;&nbsp;&nbsp;&nbsp;当然还有很多通过脚本语言可以提高效率的事情。<br/>4. 研究新的技术，并且在日常的code reivew上作为分享。
+	</p>
+	<p >
+	<strong>项目简介：</strong><br />
+	公司是美国上市的基金评级的权威机构，我们开发的是针对美国客户的asset allocation, 资产配置web单页面应用。用户可以通过公司的数据作分析预测、前台以chart, grid的方法显示这些结果给用户，帮助用户投资。<br/><br/>我们的单页面应用原来是以jQuery为基，自已编写的一套UI库，采用MVC的方式架构我们的应用，最后通过ant打包，后来考虑到公司统一战略，改为以ExtJs4为基础的UI库，也是MVC的设计，最后通过ExtJS自带的打包工具打包。
+</div>
+<div class="subtitle">教育背景</div>
+<div class="code">
+	<p>2007/09-- 2010/03</p>
+	<h6>深圳大学 <span class="ver-line" >|</span> 数学与应用数学 <span class="ver-line"  >|</span> 硕士</h6>
 	
-
-		<div class="subtitle">语言能力</div>
-		<div class="code">
-			英语：读写能力熟练 | 听说能力一般    <br/>
-		</div>
-
-		<div class="subtitle">专业技能</div>
-		<div class="code">
-			node.js      | 熟练 | 24个月          <br/>
-			需求分析,软件设计   | 良好 | 48个月<br/>
-			linux             | 良好 | 12个月<br/>
-			C++              | 良好 | 12个月<br/>
-			perl              | 良好 | 12个月<br/>
-			java             | 熟练 | 12个月<br/>
-			javascript相关技能  | 精通 | 50个月+<br/>
-		</div>
-	</body>
+	<p>2003/09-- 2007/07</p>
+	<h6>深圳大学 <span class="ver-line" >|</span> 数学与应用数学 <span class="ver-line"  >|</span> 本科</h6>
+	
+	<p>大学每年均获得一等学习奖学金</p>
+</div>
+<div class="subtitle">语言能力</div>
+<div class="code">
+	英语：读写能力熟练 | 听说能力较好    <br/>
+</div>
+<div class="subtitle">专业技能</div>
+<div class="code">
+	node.js      | 熟练 | 24个月          <br/>
+	需求分析,软件设计   | 良好 | 48个月<br/>
+	linux             | 良好 | 12个月<br/>
+	C++              | 良好 | 12个月<br/>
+	perl              | 良好 | 12个月<br/>
+	java             | 熟练 | 12个月<br/>
+	javascript相关技能  | 精通 | 50个月+<br/>
+</div>
+</body>
 </html>
